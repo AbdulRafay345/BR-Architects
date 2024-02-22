@@ -6,6 +6,10 @@
     font-optical-sizing: auto;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 /* Header */
 
@@ -40,6 +44,7 @@ header .navs a {
 main{
     width: 80%;
     margin: 0 auto;
+    flex-grow: 1;
 }
 
 .building {
